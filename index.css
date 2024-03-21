@@ -116,6 +116,12 @@ li {
     gap: 20px;
 }
 
+.header h2 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
 div.card {
     background-color: whitesmoke;
     padding: 10px;
@@ -137,6 +143,13 @@ div.card {
     border-radius: 10px;
 }
 
+.announcements h2 {
+    height: 0;
+    position: relative;
+    bottom: 50px;
+    margin-bottom: -20px;
+}
+
 .trending {
     background-color: whitesmoke;
     display: flex;
@@ -146,6 +159,13 @@ div.card {
     border-radius: 10px;
     gap: 15px;
     justify-content: space-around;
+}
+
+.trending h2 {
+    height: 0;
+    position: relative;
+    bottom: 50px;
+    margin-bottom: -20px;
 }
 
 .handle {
