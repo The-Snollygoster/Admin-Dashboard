@@ -28,6 +28,7 @@ body {
     grid-template: 1fr 1fr / 2fr 1fr;
     padding: 10px;
     gap: 20px;
+    box-shadow: 3px 3px 10px #334155;
 }
 
 .header h2 {
@@ -182,6 +183,7 @@ div.card {
     border-left: 10px solid goldenrod;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
+    box-shadow: 3px 3px 2px #334155;
 }
 
 .card .options {
@@ -201,6 +203,8 @@ div.card {
     grid-area: 1 / 2 / 2 / 3;
     padding: 10px;
     border-radius: 10px;
+    font-size: 0.8rem;
+    box-shadow: 3px 3px 2px #334155;
 }
 
 .announcements h2 {
@@ -219,6 +223,7 @@ div.card {
     border-radius: 10px;
     gap: 15px;
     justify-content: space-around;
+    box-shadow: 3px 3px 2px #334155;
 }
 
 .trending h2 {
